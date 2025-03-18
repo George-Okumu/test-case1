@@ -3,7 +3,7 @@ import LandingPage1 from "./components/LandingPage1";
 import CustomerPortal from "./components/customerPortal/CustomerPortal";
 import Draft from "./components/fundiPortfolio/fundiLanding/Draft";
 import NotFound from "./components/errorPage/NotFound";
-import Login from "./components/Login";
+import LoginScreen from "./components/Login";
 // import TrackProgress from "./components/fundiPortfolio/active/TrackProgress";
 // import ProBillSummary from "./components/customerPortal/professionalPortal/requisitions/ProBillSummary";
 // import ProTeam from "./components/customerPortal/professionalPortal/requisitions/ProTeam";
@@ -17,7 +17,7 @@ const router = createBrowserRouter(
       <Route index element={<LandingPage1 />} />
       <Route path="/customer" element={<CustomerPortal />} />
       <Route path="/draft" element={<Draft />} />
-      <Route path="/login" element={<Login />} />
+      <Route path="/login" element={<LoginScreen />} />
       <Route path="*" element={<NotFound />} />
 
     </Route>
