@@ -92,7 +92,7 @@ function App() {
       {/* <CustomerAccountSideNav /> */}
       <Routes>
         {/* General Routes */}
-        <Route path="/" element={<LandingPage1 />} />
+        <Route path="/customer" element={<LandingPage1 />} />
         <Route path="/landing-page-2" element={<LandingPage2 />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/fundisignup" element={<FundiSignUp />} />
