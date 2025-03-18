@@ -14,8 +14,8 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<LandingPage1 />}>
       <Route index element={<LandingPage1 />} />
-      <Route path="customer" element={<CustomerPortal />} />
-      <Route path="draft" element={<Draft />} />
+      <Route path="/customer" element={<CustomerPortal />} />
+      <Route path="/draft" element={<Draft />} />
       <Route path="*" element={<NotFound />} />
 
     </Route>
