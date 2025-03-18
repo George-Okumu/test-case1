@@ -92,8 +92,8 @@ function App() {
       {/* <CustomerAccountSideNav /> */}
       <Routes>
         {/* General Routes */}
-        <Route path="/customer" element={<LandingPage1 />} />
-        <Route path="/landing-page-2" element={<LandingPage2 />} />
+        <Route path="/"  element={<LandingPage1 />} />
+        <Route path="/landing-page-2" exact element={<LandingPage2 />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/fundisignup" element={<FundiSignUp />} />
         <Route path="/professional" element={<Professional />} />
