@@ -26,7 +26,6 @@
     "react-multi-carousel": "^2.8.5",
     "react-router-dom": "^7.1.5",
     "react-select": "^5.10.0",
-    "react-step-progress": "^1.0.3",
     "react-world-flags": "^1.6.0",
     "vite-plugin-checker": "^0.8.0"
   },
